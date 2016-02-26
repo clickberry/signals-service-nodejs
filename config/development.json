@@ -1,0 +1,9 @@
+{
+  "nsqlookupd": {
+    "addresses": "192.168.99.100:4161"
+  },
+  "cassandra":{
+    "nodes": "localhost",
+    "keyspace": "signals"
+  }
+}

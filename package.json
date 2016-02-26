@@ -1,0 +1,38 @@
+{
+  "name": "clickberry-signals-service",
+  "version": "0.1.0",
+  "main": "worker.js",
+  "description": "Signals worker micro-service on Node.js",
+  "scripts": {
+    "start": "node ./worker",
+    "test": "mocha"
+  },
+  "author": "Konstantin Altuhov",
+  "keywords": [
+    "clickberry",
+    "webservices",
+    "node.js",
+    "signals",
+    "api",
+    "worker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clickberry/signals-service-nodejs"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/clickberry/signals-service-nodejs/issues"
+  },
+  "dependencies": {
+    "cassandra-driver": "^3.0.1",
+    "clickberry-config": "clickberry/config-nodejs.git#master",
+    "debug": "~2.2.0",
+    "events": "^1.0.2",
+    "express": "~4.12.4",
+    "moment": "^2.11.1",
+    "nsqjs": "^0.7.6",
+    "q": "^1.4.1",
+    "util": "^0.10.3"
+  }
+}
